@@ -138,10 +138,9 @@
             button4.Text = "  profit and loss";
             button4.UseVisualStyleBackColor = true;
             button4.Visible = false;
-<<<<<<< HEAD
+
             button4.Click += button4_Click_1;
-=======
->>>>>>> 03665c860a1a404eb87e9c6483237c50d29bb09e
+
             // 
             // button3
             // 
@@ -259,15 +258,15 @@
             MainPanel.Controls.Add(panel5);
             MainPanel.Controls.Add(panel4);
             MainPanel.Controls.Add(panel3);
-<<<<<<< HEAD
+
             MainPanel.Location = new Point(267, 0);
             MainPanel.Name = "MainPanel";
             MainPanel.Size = new Size(1131, 720);
-=======
+
             MainPanel.Location = new Point(266, 0);
             MainPanel.Name = "MainPanel";
             MainPanel.Size = new Size(1132, 720);
->>>>>>> 03665c860a1a404eb87e9c6483237c50d29bb09e
+
             MainPanel.TabIndex = 6;
             MainPanel.Paint += MainPanel_Paint;
             // 

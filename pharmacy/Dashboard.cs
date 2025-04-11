@@ -150,13 +150,10 @@ namespace pharmacy
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             MainPanel.Controls.Clear(); // clear the panel
-            SalesReport medPage = new SalesReport(MainPanel); // pass panelMain to Medicines
-            MainPanel.Controls.Add(medPage);
-=======
-            
->>>>>>> 03665c860a1a404eb87e9c6483237c50d29bb09e
+            SalesReport sales = new SalesReport(MainPanel); // pass panelMain to Medicines
+            MainPanel.Controls.Add(sales);
         }
 
         private void button6_Click_1(object sender, EventArgs e)
@@ -170,7 +167,7 @@ namespace pharmacy
         {
 
         }
-<<<<<<< HEAD
+
 
         private void button4_Click_1(object sender, EventArgs e)
         {
@@ -178,7 +175,6 @@ namespace pharmacy
             ProfitAndLoss profitloss = new ProfitAndLoss(MainPanel);
             MainPanel.Controls.Add(profitloss);
         }
-=======
->>>>>>> 03665c860a1a404eb87e9c6483237c50d29bb09e
+
     }
 }
